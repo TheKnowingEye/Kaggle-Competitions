@@ -1,3 +1,6 @@
+import pandas as pd
+from sklearn.model_selection import StratifiedKFold
+import numpy as np
 TARGET = "loan_paid_back"   # change as needed
 
 NUMS = ['annual_income', 'debt_to_income_ratio', 'credit_score', 'loan_amount', 'interest_rate']
